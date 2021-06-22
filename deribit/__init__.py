@@ -17,43 +17,43 @@ from __future__ import absolute_import
 __version__ = "1.0.0"
 
 # import apis into sdk package
-from openapi_client.api.account_management_api import AccountManagementApi
-from openapi_client.api.authentication_api import AuthenticationApi
-from openapi_client.api.internal_api import InternalApi
-from openapi_client.api.market_data_api import MarketDataApi
-from openapi_client.api.private_api import PrivateApi
-from openapi_client.api.public_api import PublicApi
-from openapi_client.api.supporting_api import SupportingApi
-from openapi_client.api.trading_api import TradingApi
-from openapi_client.api.wallet_api import WalletApi
+from deribit.api.account_management_api import AccountManagementApi
+from deribit.api.authentication_api import AuthenticationApi
+from deribit.api.internal_api import InternalApi
+from deribit.api.market_data_api import MarketDataApi
+from deribit.api.private_api import PrivateApi
+from deribit.api.public_api import PublicApi
+from deribit.api.supporting_api import SupportingApi
+from deribit.api.trading_api import TradingApi
+from deribit.api.wallet_api import WalletApi
 
 # import ApiClient
-from openapi_client.api_client import ApiClient
-from openapi_client.configuration import Configuration
-from openapi_client.exceptions import OpenApiException
-from openapi_client.exceptions import ApiTypeError
-from openapi_client.exceptions import ApiValueError
-from openapi_client.exceptions import ApiKeyError
-from openapi_client.exceptions import ApiException
+from deribit.api_client import ApiClient
+from deribit.configuration import Configuration
+from deribit.exceptions import OpenApiException
+from deribit.exceptions import ApiTypeError
+from deribit.exceptions import ApiValueError
+from deribit.exceptions import ApiKeyError
+from deribit.exceptions import ApiException
 # import models into sdk package
-from openapi_client.models.address_book_item import AddressBookItem
-from openapi_client.models.book_summary import BookSummary
-from openapi_client.models.currency import Currency
-from openapi_client.models.currency_portfolio import CurrencyPortfolio
-from openapi_client.models.currency_withdrawal_priorities import CurrencyWithdrawalPriorities
-from openapi_client.models.deposit import Deposit
-from openapi_client.models.instrument import Instrument
-from openapi_client.models.key_number_pair import KeyNumberPair
-from openapi_client.models.order import Order
-from openapi_client.models.order_id_initial_margin_pair import OrderIdInitialMarginPair
-from openapi_client.models.portfolio import Portfolio
-from openapi_client.models.portfolio_eth import PortfolioEth
-from openapi_client.models.position import Position
-from openapi_client.models.public_trade import PublicTrade
-from openapi_client.models.settlement import Settlement
-from openapi_client.models.trades_volumes import TradesVolumes
-from openapi_client.models.transfer_item import TransferItem
-from openapi_client.models.types import Types
-from openapi_client.models.user_trade import UserTrade
-from openapi_client.models.withdrawal import Withdrawal
+from deribit.models.address_book_item import AddressBookItem
+from deribit.models.book_summary import BookSummary
+from deribit.models.currency import Currency
+from deribit.models.currency_portfolio import CurrencyPortfolio
+from deribit.models.currency_withdrawal_priorities import CurrencyWithdrawalPriorities
+from deribit.models.deposit import Deposit
+from deribit.models.instrument import Instrument
+from deribit.models.key_number_pair import KeyNumberPair
+from deribit.models.order import Order
+from deribit.models.order_id_initial_margin_pair import OrderIdInitialMarginPair
+from deribit.models.portfolio import Portfolio
+from deribit.models.portfolio_eth import PortfolioEth
+from deribit.models.position import Position
+from deribit.models.public_trade import PublicTrade
+from deribit.models.settlement import Settlement
+from deribit.models.trades_volumes import TradesVolumes
+from deribit.models.transfer_item import TransferItem
+from deribit.models.types import Types
+from deribit.models.user_trade import UserTrade
+from deribit.models.withdrawal import Withdrawal
 
